@@ -1,4 +1,4 @@
-module goapp
+module github.com/saram12saram2/GoApp
 
 go 1.15
 

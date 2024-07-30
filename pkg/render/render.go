@@ -3,12 +3,13 @@ package render
 import (
 	"bytes"
 	"fmt"
-	"goapp/pkg/config"
-	"goapp/pkg/models"
 	"html/template"
 	"log"
 	"net/http"
 	"path/filepath"
+
+	"github.com/saram12saram2/GoApp/pkg/config"
+	"github.com/saram12saram2/GoApp/pkg/models"
 )
 
 var functions = template.FuncMap{}

@@ -2,12 +2,14 @@ package main
 
 import (
 	"fmt"
-	"goapp/pkg/config"
-	"goapp/pkg/handlers"
-	"goapp/pkg/render"
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/saram12saram2/GoApp/pkg/handlers"
+	"github.com/saram12saram2/GoApp/pkg/render"
+
+	"github.com/saram12saram2/GoApp/pkg/config"
 
 	"github.com/alexedwards/scs/v2"
 )

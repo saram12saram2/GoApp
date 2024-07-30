@@ -1,13 +1,71 @@
 {{template "base" .}}
 
 {{define "content"}}
+    <div id="main-carousel" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+            <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#main-carousel" data-slide-to="1"></li>
+            <li data-target="#main-carousel" data-slide-to="2"></li>
+            <li data-target="#main-carousel" data-slide-to="3"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/static/images/cake.png" class="d-block w-100" alt="Cake">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/static/images/myRoom.png" class="d-block w-100" alt="Room">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/static/images/plants.png" class="d-block w-100" alt="Plants">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/static/images/mirror.png" class="d-block w-100" alt="irror">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <div class="row">
             <div class="col">
-                <h1>This is the home page</h1>
-                <p>This is some text</p>
-                    <img src="/static/images/MasRoyal.jpg"  alt="House Image" width="1406" height="791">
+                <h1 class="text-center mt-4">Welcome to Mangystau Bed and Breakfast</h1>
+                <p>
+                    Your home away form home, set on the majestic waters of the Kaspian Sea, this will be a vacation to remember.
+                    Your home away form home, set on the majestic waters of the Kaspian Sea, this will be a vacation to remember.
+                    Your home away form home, set on the majestic waters of the Kaspian Sea, this will be a vacation to remember.
+                    Your home away form home, set on the majestic waters of the Kaspian Sea, this will be a vacation to remember.
+                    Your home away form home, set on the majestic waters of the Kaspian Sea, this will be a vacation to remember.
+                    Your home away form home, set on the majestic waters of the Kaspian Sea, this will be a vacation to remember.
+                </p>
             </div>
         </div>
+
+
+        <div class="row">
+
+            <div class="col text-center">
+
+                <a href="/search-availability" class="btn btn-success">Make Reservation Now</a>
+
+            </div>
+        </div>
+
     </div>
 {{end}}
